@@ -1,4 +1,4 @@
-import './sass/style.scss';
+import './sass/client-page.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ClientPage from "./components/client-page";

@@ -25,7 +25,7 @@ module.exports = {
     plugins: [
         new ManifestPlugin(),
         new MiniCssExtractPlugin({
-            filename: 'client.css'
+            filename: '[name].css'
         })
     ],
 };

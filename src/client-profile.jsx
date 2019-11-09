@@ -1,3 +1,4 @@
+import './sass/client-profile.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ClientProfile from "./components/client-profile";

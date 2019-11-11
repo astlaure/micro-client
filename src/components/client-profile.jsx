@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 
 const ClientProfile = () => {
     const [name, setName] = useState('');
 
     useEffect(() => {
-        axios.get('/clientapi/api/client')
-            .then(response => setName(response.data.name));
+        window.clientService.getClient()
+            .then(response => setName(response.name));
     });
     return (
         <div className="client-profile">
